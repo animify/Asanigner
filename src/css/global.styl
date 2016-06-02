@@ -1,0 +1,78 @@
+@import 'jeet'
+@import 'nib'
+
+
+body
+	width 100%
+	height 100%
+	font-family 'Lato', 'Open Sans', sans-serif
+
+.us-list
+	list-style none
+	padding 0
+	margin 0
+	li
+
+		font-size 18px
+		padding 7px 15px
+		background-color #DADFE2
+		border 1px solid #DADFE2
+		margin-top 10px
+		border-radius 4px
+		font-size 16px
+		color #535658
+		&.selected
+			border-color #6111C7 !important
+	i
+		margin-left 5px
+		opacity 0.2
+		font-size 15px
+		float right
+		transition all 0.3s ease
+		cursor pointer
+		&:hover
+			opacity 0.6
+.cta-app
+	display block
+	padding 12px 15px
+	background-color #fff
+	text-align center
+	border-radius 4px
+	margin-top 12px
+	cursor pointer
+	transition all 0.3s ease
+.run-app
+	background-color #0DCB7B
+	color #fff
+	&:hover
+		background-color darken(#0DCB7B, 5%)
+.run-assign
+	background-color #0DA0E8
+	color #fff
+	&:hover
+		background-color darken(#0DA0E8, 5%)
+.app
+	width 500px
+	align(center)
+	background-color #E6E8E9
+	border-radius 4px
+	overflow hidden
+	&-footer
+		span(1/1)
+		height 45px
+		text-align center
+		line-height 42px
+		background-color darken(#E6E8E9, 10%)
+		color darken(#E6E8E9, 50%)
+		font-weight 400
+		display none
+	&-inner
+		padding 30px
+	input
+		border-radius 4px
+		font-size 16px
+		padding 9px 15px
+		border 1px solid #DADFE2
+		outline 0
+		width 410px
+		font-weight 300
